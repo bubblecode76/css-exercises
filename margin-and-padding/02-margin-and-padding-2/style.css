@@ -7,21 +7,38 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  border:  8px solid #fff;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  /*font-weight: 700;*/
+  padding: 7px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 15px;
+  padding-left: 5px;
+  /*width: 380px;*/
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 7px;
 }
 
 button {
+  display: block;
+  margin: 0 auto;
+  /*display: block;
+  margin: 0 auto; -added these two instead of <br/> in html*/
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
 }
